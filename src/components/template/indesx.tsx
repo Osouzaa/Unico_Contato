@@ -6,7 +6,6 @@ const Template = () => {
   return (
     <div>
       <Header />
-     
       <Outlet />
     </div>
   );

@@ -41,4 +41,16 @@ const ContentImg = styled.div`
   }
 `;
 
-export { Container, ContentDeposition, ContentImg };
+const ContainerCarousel = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    color: #009;
+    margin: 1em;
+  }
+`;
+
+export { Container, ContentDeposition, ContentImg, ContainerCarousel };

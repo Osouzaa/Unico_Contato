@@ -6,6 +6,11 @@ const Container = styled.div`
   img {
     height: 750px;
     width: 100%;
+
+    @media (max-width: 414px) {
+      height: 400px;
+      width: 100%;
+    }
   }
 `;
 

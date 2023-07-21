@@ -3,11 +3,20 @@ import styled from "styled-components";
 const ContainerGeral = styled.div`
   display: flex;
   justify-content: center;
+
+  @media (max-width: 414px) {
+    flex-direction: column;
+  }
 `;
 
 const Container = styled.div`
   background: #003;
   height: 400px;
+
+  @media (max-width: 414px) {
+      height: 480px;
+    }
+
 `;
 
 const Title = styled.h1`
@@ -23,6 +32,11 @@ const ContainerDiv = styled.form`
 
 const ContentInputs = styled.div`
   display: flex;
+  @media (max-width: 414px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   gap: 1em;
   input {
     width: 300px;
@@ -32,8 +46,15 @@ const ContentInputs = styled.div`
     padding-left: 1em;
     outline: none;
 
+    @media (max-width: 414px) {
+      width: 350px;
+    }
+
     &.E-mail {
       width: 500px;
+      @media (max-width: 414px) {
+        width: 350px;
+      }
     }
   }
 `;
@@ -43,6 +64,12 @@ const ContentMessage = styled.div`
   justify-content: center;
   margin-top: 0.7em;
 
+  @media (max-width: 414px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   input {
     width: 815px;
     height: 180px;
@@ -51,6 +78,10 @@ const ContentMessage = styled.div`
     padding-left: 1em;
     text-align: start;
     outline: none;
+
+    @media (max-width: 414px) {
+      width: 350px;
+    }
   }
 `;
 

@@ -38,9 +38,43 @@ const ContentList = styled.div`
     text-transform: uppercase;
 
     &.active {
-      color: #35A29F;
+      color: #35a29f;
     }
   }
 `;
 
-export { Header, ContentImg, ContentList };
+const Span = styled.div`
+  color: #fff;
+  font-size: 35px;
+`;
+
+const ContentListBar = styled.div`
+  position: fixed;
+  top: 100px;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+
+  li.active {
+    font-weight: bold;
+  }
+`;
+
+export { Header, ContentImg, ContentList, Span, ContentListBar };
