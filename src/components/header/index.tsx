@@ -28,7 +28,7 @@ const Header = () => {
             <C.Span> &#9776;</C.Span>
           </div>
           {showSidebar && (
-            <C.ContentListBar>
+            <C.ContentListBar >
               <ul>
                 <li className={location.pathname === "/" ? "active" : ""}>
                   Plataforma

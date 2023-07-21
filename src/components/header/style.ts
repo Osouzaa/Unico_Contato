@@ -53,8 +53,8 @@ const ContentListBar = styled.div`
   top: 100px;
   right: 0;
   bottom: 0;
-  width: 300px;
-  background-color: #f0f0f0;
+  width: 200px;
+  background-color: #006;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   z-index: 999;
@@ -69,12 +69,16 @@ const ContentListBar = styled.div`
   }
 
   li {
-    margin: 10px 0;
+    margin: 30px 0;
+    color: #fff;
+    font-size: 18px;
   }
 
   li.active {
     font-weight: bold;
+    color: #35a29f;
   }
+  
 `;
 
 export { Header, ContentImg, ContentList, Span, ContentListBar };
