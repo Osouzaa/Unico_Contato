@@ -58,7 +58,7 @@ const Header = () => {
           )}
         </>
       ) : (
-        // Caso contrário, exiba a lista normalmente.
+        
         <C.ContentList>
           <ul>
             <li className={location.pathname === "/" ? "active" : ""}>

@@ -6,7 +6,7 @@ const Register = () => {
       <div>
         <C.Title>Cadastro</C.Title>
       </div>
-      <form>
+      <C.Form>
         <C.ContainerDiv>
           <C.ContentInputs>
             <input type="text" placeholder="Nome" />
@@ -16,7 +16,7 @@ const Register = () => {
         <C.ContentMessage>
           <input type="text" placeholder="Mensagem" />
         </C.ContentMessage>
-      </form>
+      </C.Form>
       <C.buttonMenssage>
         {" "}
         <button>Enviar Mensagem</button>

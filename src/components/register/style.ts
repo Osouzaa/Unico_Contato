@@ -11,12 +11,11 @@ const ContainerGeral = styled.div`
 
 const Container = styled.div`
   background: #003;
-  height: 400px;
+  height: 450px;
 
   @media (max-width: 414px) {
-      height: 480px;
-    }
-
+    height: 480px;
+  }
 `;
 
 const Title = styled.h1`
@@ -85,6 +84,13 @@ const ContentMessage = styled.div`
   }
 `;
 
+const Form = styled.form`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+`;
+
 const buttonMenssage = styled.div`
   display: flex;
   justify-content: center;
@@ -115,4 +121,5 @@ export {
   ContentInputs,
   ContentMessage,
   buttonMenssage,
+  Form,
 };

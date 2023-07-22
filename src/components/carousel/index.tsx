@@ -1,6 +1,7 @@
 import { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requer um carregador
 import { Carousel } from "react-responsive-carousel";
+import * as C from "./style";
 
 import Pessoa1 from "../../img/Pessoa1.svg";
 import Pessoa2 from "../../img/Pessoa2.svg";
@@ -23,15 +24,30 @@ class DemoCarousel extends Component {
           centerMode={true}
           showStatus={false}
         >
-          <div>
+          <C.Container>
             <img src={Pessoa1} />
-          </div>
-          <div>
+            <p>
+              {" "}
+              SR.DONO DA EDUCA MAIS BRASIL , CRIADOR DA CONTA ENOR ...{" "}
+              <span>Ver Mais</span>
+            </p>
+          </C.Container>
+          <C.Container>
             <img src={Pessoa2} />
-          </div>
-          <div>
+            <p>
+              {" "}
+              SR.DONO DA EDUCA MAIS BRASIL , CRIADOR DA CONTA ENOR ...{" "}
+              <span>Ver Mais</span>
+            </p>
+          </C.Container>
+          <C.Container>
             <img src={Pessoa3} />
-          </div>
+            <p>
+              {" "}
+              SR.DONO DA EDUCA MAIS BRASIL , CRIADOR DA CONTA ENOR ...{" "}
+              <span>Ver Mais</span>
+            </p>
+          </C.Container>
         </Carousel>
       </>
     );

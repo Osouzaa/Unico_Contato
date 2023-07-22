@@ -4,6 +4,7 @@ const Footer = () => {
   return (
     <C.Container>
       <C.Content>
+        <span> Endereço </span>
         <p> Rua Noberto Mayer 1019 Eldorado - Contagem/MG Cep: 32.315-100</p>
       </C.Content>
       <C.Content>

@@ -5,7 +5,11 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   background-color: rgba(214, 228, 241, 0.8);
-  height: 600px;
+  height: 700px;
+
+  @media (max-width: 2560px) {
+    justify-content: space-evenly;
+  }
 `;
 
 const ContentDeposition = styled.div`
@@ -38,6 +42,8 @@ const ContentImg = styled.div`
   img {
     width: 100%;
     height: 100%;
+
+    
   }
 `;
 
